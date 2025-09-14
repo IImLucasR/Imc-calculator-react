@@ -1,4 +1,4 @@
-h1, h2 {
+.tittle {
     background-color: var(--titles-background-color);
     border-radius: 25px;
     margin-bottom: 25px;
@@ -8,7 +8,7 @@ h1, h2 {
     max-width: fit-content;
 }
 
-p {
+.text {
     padding: 25px;
     text-shadow: 1px 1px 42px ;
 }

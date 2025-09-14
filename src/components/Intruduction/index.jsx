@@ -4,9 +4,9 @@ const Introduction = () => {
     
     return (
         <header>
-            <h1>Calculadora IMC</h1>
-            <h2>Antes de Tudo, Oque é o IMC?</h2>
-            <p>IMC (Índice de Massa Corporal) é um cálculo usado para avaliar se o peso de uma pessoa está adequado em relação à sua altura. Ele é obtido dividindo o peso (em kg) pela altura ao quadrado (em metros). O resultado indica categorias como abaixo do peso, peso normal, sobrepeso ou obesidade.</p>
+            <h1 className={styles.tile}>Calculadora IMC</h1>
+            <h2 className={styles.tile}>Antes de Tudo, Oque é o IMC?</h2>
+            <p className={styles.text}>IMC (Índice de Massa Corporal) é um cálculo usado para avaliar se o peso de uma pessoa está adequado em relação à sua altura. Ele é obtido dividindo o peso (em kg) pela altura ao quadrado (em metros). O resultado indica categorias como abaixo do peso, peso normal, sobrepeso ou obesidade.</p>
         </header>
     )
 }

@@ -1,5 +1,4 @@
-import styles from "./IMCBar.module.css"
-import Inputs from "../Inputs";
+import styles from "./IMCBar.module.css";
 
 const IMCBar = ({ imc }) => {
 
