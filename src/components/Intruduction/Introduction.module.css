@@ -1,0 +1,14 @@
+h1, h2 {
+    background-color: var(--titles-background-color);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border: 2px solid var(--titles-border-color);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .2);
+    padding: 0px 10px;
+    max-width: fit-content;
+}
+
+p {
+    padding: 25px;
+    text-shadow: 1px 1px 42px ;
+}

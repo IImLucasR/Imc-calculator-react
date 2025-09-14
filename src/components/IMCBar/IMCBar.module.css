@@ -1,0 +1,59 @@
+.ruler {
+    margin: auto;
+    position: relative;
+    width: 1203px;
+    height: 30px;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(0, 0, 0, .3) 0px,
+        rgba(0, 0, 0, .3) 2px,
+        transparent 2px,
+        transparent 50px
+    );
+}
+
+.colors {
+    display: inline-flex;
+}
+
+.blue {
+    width: 360px;
+    height: 30px;
+    margin-left: -30px;
+    background-color: rgba(0, 255, 255, .1);
+    border-radius: 10px 0 0 10px;
+}
+
+.green {
+    width: 256.64px;
+    height: 30px;
+    background-color: rgba(0, 255, 0, .1);
+}
+
+.yellow {
+    width: 196.49px;
+    height: 30px;
+    background-color: rgba(255, 255, 0, .1)
+}
+
+.orange {
+    width: 196.49px;
+    height: 30px;
+    background-color: rgba(255, 165, 0, .1);
+}
+
+.red {
+    width: 253px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, .1);
+    border-radius: 0 10px 10px 0;
+}
+
+.needle {
+    position: absolute;
+    margin-top: -7px;
+    width: 2px;
+    height: 43px;
+    background-color: black;
+    border-radius: 50%;
+}
