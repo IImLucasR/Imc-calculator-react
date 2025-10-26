@@ -1,9 +1,10 @@
-import { useState } from "react"
+import { useState, useRef } from "react"
 import styles from "./Inputs.module.css"
 
 const Inputs = ({ imc, setImc }) => {
     const [altura, setAltura] = useState("");
     const [peso, setPeso] = useState("");
+
 
     const calculate = (e) => {
         e.preventDefault();
@@ -13,8 +14,7 @@ const Inputs = ({ imc, setImc }) => {
             setImc(num2 / (num1 * num1));
         }
     };
-    
-    return(
+    return (
         <div className={styles.container}>
             <form onSubmit={calculate}>
                 <label>

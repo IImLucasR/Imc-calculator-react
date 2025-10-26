@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-    --background-color: #ecf0f1;
+    --background-color: #ecf0f1; /*Definindo variaveis globais*/
     --titles-background-color: #ffffff;
     --titles-border-color: #e7e8e9;
 }
@@ -15,5 +15,4 @@
 
 body {
     background-color: var(--background-color);
-
 }

@@ -56,4 +56,5 @@
     height: 43px;
     background-color: black;
     border-radius: 50%;
+    transition: left 0.5 ease;
 }

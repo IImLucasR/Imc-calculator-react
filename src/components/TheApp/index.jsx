@@ -1,13 +1,15 @@
-import IMCBar from "../IMCBar"
+import IMCBar from "../IMCBar" // Importação dos outros apps
 import Introduction from "../Intruduction"
 import Inputs from "../Inputs"
 
-import styles from "./TheApp.module.css"
+import styles from "./TheApp.module.css" // container organizando o site
 import { useState } from "react"
 
 
 const Calculator = () => {
     const [imc, setImc] = useState(0);
+
+
 
     return (
         <div className={styles.container}>
